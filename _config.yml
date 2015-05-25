@@ -1,8 +1,8 @@
 # Site settings
-title:       Pixyll
-email:       your_email@example.com
-author:      John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+title:       Musings
+email:       http://marksibrahim.github.io/
+author:      Mark Ibrahim
+description: "a collection of useful tools, ideas, and occasional tangents"
 baseurl:     "/musings"
 url:         "http://marksibrahim.github.io/"
 
@@ -10,7 +10,7 @@ url:         "http://marksibrahim.github.io/"
 google_analytics:
 
 # Optional features
-animated:           false
+animated:           true
 show_related_posts: false
 show_post_footers:  false
 
