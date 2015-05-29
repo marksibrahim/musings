@@ -20,6 +20,7 @@ categories: jekyll pixyll
 * Spectacle
 * Dropbox
 * Caffeine 
+* Karabiner
 
 ### The Accessories
 * Mailbox
