@@ -8,7 +8,7 @@ categories: jekyll pixyll
 
 ### The Essentials
 * vim (+ vimium) + iTerm
-* Latex
+* Latex 
 * Python with virtual environments + iPython
 
 ### The Utilities
@@ -20,5 +20,6 @@ categories: jekyll pixyll
 ### The Accessories
 * Mailbox
 * Pocket
+* Alfred
 
-**Wish list**: learn tmux; refine how I use git, github, and Alfred.
+
