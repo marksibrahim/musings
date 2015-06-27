@@ -10,9 +10,27 @@ categories: jekyll pixyll
 When you need to search for and replace in only part of a file:
 
 1. visually select the block 
-2. type ":" 
+2. type <b>: </b>
     * vim inserts '<,'> to denote your selection
-3. search as usual by typing "s/oldword/newword/g"
+3. search as usual by typing <b>s/oldword/newword/g</b>
     * 'g' ensures all occurrence, not just the first are changed
 
 
+### Tags, Parenthesis, and all that
+
+With Tim Pope's <a href="https://github.com/tpope/vim-surround">Surround Plugin</a>
+{% highlight html %}
+<div>hi there</div>
+{% endhighlight %}
+becomes
+{% highlight html %}
+<p>hi there</p>
+{% endhighlight %}
+through <b>cst\<p\></b>.  <p style="color:#93a1a1">In English:"change surrounding tag to \<p\>"</div>
+
+Similarly, <b> cs(" </b> changes () to "" 
+
+### Small Goodies
+* <b> gv </b> reselects last visual area
+* <b> g; </b> jump to last edit
+* <b> s </b> deletes character and activates insert mode
