@@ -26,7 +26,7 @@ becomes
 {% highlight html %}
 <p>hi there</p>
 {% endhighlight %}
-through <b>cst\<p\></b>.  <p style="color:#93a1a1">In English:"change surrounding tag to \<p\>"</div>
+through <b>cst\<p\></b>.  <p style="color:#93a1a1">In English:"change surrounding tag to \<p\>"</p>
 
 Similarly, <b> cs(" </b> changes () to "" 
 
