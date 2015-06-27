@@ -6,11 +6,6 @@ summary:    an enticing app, a script snack to go with your apple lap (top)...
 categories: jekyll pixyll
 ---
 
-
-
-
-
-
 ### The Essentials
 * vim (+ vimium) + iTerm
 * Latex
