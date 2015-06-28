@@ -14,7 +14,7 @@ When you need to search for and replace in only part of a file:
     * vim inserts '<,'> to denote your selection
 3. search as usual by typing <b>s/oldword/newword/g</b>
     * 'g' ensures all occurrence, not just the first are changed
-
+<p style="margin-left:1em;">blah blah blah blah </p>
 
 ### Tags, Parenthesis, and all that
 
@@ -26,7 +26,7 @@ becomes
 {% highlight html %}
 <p>hi there</p>
 {% endhighlight %}
-through <b>cst\<p\></b>.  <p style="color:#93a1a1">In English:"change surrounding tag to \<p\>"</p>
+through <b>cst\<p\></b>.  <span class="mid-gray">In English:"change surrounding tag to \<p\>"</span>
 
 Similarly, <b> cs(" </b> changes () to "" 
 
