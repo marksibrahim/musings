@@ -14,7 +14,6 @@ When you need to search for and replace in only part of a file:
     * vim inserts '<,'> to denote your selection
 3. search as usual by typing <b>s/oldword/newword/g</b>
     * 'g' ensures all occurrence, not just the first are changed
-<p style="margin-left:1em;">blah blah blah blah </p>
 
 ### Tags, Parenthesis, and all that
 
