@@ -29,6 +29,8 @@ through <b>cst\<p\></b>.  <span class="mid-gray">In English:"change surrounding 
 
 Similarly, <b> cs(" </b> changes () to "" 
 
+To surround a word with a \<span\> tag: <b>ysiw\<span\> </b>
+
 ### Small Goodies
 * <b> gv </b> reselects last visual area
 * <b> g; </b> jump to last edit
