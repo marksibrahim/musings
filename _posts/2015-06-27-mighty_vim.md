@@ -15,6 +15,29 @@ When you need to search for and replace in only part of a file:
 3. search as usual by typing <b>s/oldword/newword/g</b>
     * 'g' ensures all occurrence, not just the first are changed
 
+### Add or delete on many lines, at once!
+
+Say you're working with: 
+{% highlight python %}
+2012: 5.68,
+2013: 6.02,
+2014: 6.38,
+{% endhighlight %}
+
+To surround all the dates with quotes: 
+
+1. visually select 
+2. type <b>I (or A)</b> (must be capital) 
+3. then type " (or any word you desire)
+4. escape
+
+et voila: 
+
+{% highlight python %}
+"2012": 5.68,
+"2013": 6.02,
+"2014": 6.38,
+{% endhighlight %}
 ### Tags, Parenthesis, and all that
 
 With Tim Pope's <a href="https://github.com/tpope/vim-surround">Surround Plugin</a>
@@ -30,6 +53,8 @@ through <b>cst\<p\></b>.  <span class="mid-gray">In English:"change surrounding 
 Similarly, <b> cs(" </b> changes () to "" 
 
 To surround a word with a \<span\> tag: <b>ysiw\<span\> </b>
+
+And best of all, for an entire line select visually, then <b>S</b> to surround with tag of choice.
 
 ### Small Goodies
 * <b> gv </b> reselects last visual area
