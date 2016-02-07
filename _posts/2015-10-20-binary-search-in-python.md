@@ -63,7 +63,9 @@ Each time the function is executed, we're flipping to the middle of the left or
 right sections of the phone book.
 We collect the phone number of the person using the index in our **phone_numbers** blist.
 
-Compared to a for loop, binary search is much more efficient---in terms of complexity binary search is in **O(log n)**. 
+Compared to a for loop, binary search is much more efficient.
+In terms of complexity binary search is in **O(log n)**---in a worst and average case.
+
 
 The phone book example is a nice illustration of binary search, but isn't the 
 best solution to the problem. Instead, it's much more simple and efficient 
