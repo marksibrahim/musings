@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Why Calculus works"
-date:       2016-03-06 12:32:18
+date:       2016-03-25 12:32:18
 summary:    Real and Complex Analysis + Measure Theory
 categories: jekyll pixyll
 ---
