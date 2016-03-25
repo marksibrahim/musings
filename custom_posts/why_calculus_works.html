@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <!-- header tab icon -->
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Why Calculus Works and beyond...</title>
+    <link rel="shortcut icon" href="dydx.png" />
+
+    <!-- google fonts-->
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <!-- math font-->
+<style>
+    .math{ overflow: inherit} 
+    .tgray{
+        color: gray;
+        padding-left: 30px;
+    }
+</style>
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body style="font-family: 'Roboto', sans-serif;">
+      <div class="row" style="margin-top:40px;">
+        <div class="col-md-2">
+        </div>
+        <div class="col-md-8">
+            <h1> Why Calculus Works</h1>
+            <h4>a compendium of Real + Complex Analysis and Measure Theory</h4>
+
+   <h2 style="padding-top:20px;">Real Numbers</h2>
+
+    What are the real numbers? They turn out to be uniquely determined by a handful of natural requirements on a set: 
+
+    <ul>
+        <li> <b>field</b> <span style="color:gray;">
+    (operations: +, x with identity, inverses, commutiativity, associativity, and distribution)
+    </span>
+        </li>
+        <li>
+    <b>order</b>: trichotomy
+        </li>
+        <li>
+            <b>completeness</b> (or least upper bound property)
+        </li>
+    </ul>
+
+    <p>
+    careful: $\mathcal{R}$ doesn't include $\pm \infty$.
+    <br>
+    After defining the reals, we notice not all numbers are rational! 
+    <br>
+    <br>
+    In fact, we see that $\sqrt{2}, \sqrt{3}, \dots \sqrt{n}$ for any $n$ 
+    that's not a perfect square are all <b>irrational</b>
+    </p>
+    <p class="tgray">
+    idea: use divisibility to show no rational number squared is 2
+    </p>
+
+    <b>Cauchy Schwarz</b> $\vert \vec{u} \cdot \vec{v} \vert \leq 
+    \vert \vec{u} \vert \vert \vec{v} \vert$
+
+
+    Finally, Cantor showed $\mathcal{R}$ is uncountable! 
+    <p class="tgray">
+    idea: suppose someone claimed to have a list of all reals 
+    (this list would have to be infinite). Then, we write down a number
+    that's different from each one on the list in the nth decimal place!
+    </p>
+
+
+    <h2>Topology</h2>
+
+    Abstraction is a powerful tool to show why Calculus works. 
+    We'll be able to prove key results in a more straightforward and 
+    generalizable form.
+
+    <p>
+    <br>
+    The key object of study is a <b>metric space</b>: 
+    a set M along with a distance function $d: MxM \rightarrow [0, \infty]$
+    </p>
+
+    <ul>
+        <li> $d$ is symmetric: $d(x, y) = d(y, x)$ </li>
+        <li> definite $d(x, y) = 0 \iff x = y$ </li>
+        <li>
+            triangle: $d(x, z) \leq d(x, y) + d(y,z)$
+        </li>
+    </ul>
+
+    <p>
+    A <b>neighborhood</b> (or open ball) is a set 
+       $$B(a, r) = \left\{ x \vert\ d(a, x) < r \right\} $$
+
+    Another notion used to characterize closed sets is 
+    <b>limit point</b> (or accumulation point). 
+    We say $x$ is a limit point of a set $A$ if every $B(x, \epsilon)$
+    contains a point of $A$.
+
+    <br>
+    It turns out a set is closed $\iff$ the set contains all limit points.
+    <b>Closure</b> is simply the set $\cup$ its limit points.
+    <br>
+
+    <h4> Compactness</h4>
+    Compactness is equivalent to <b>sequential compactness</b>, which 
+    means every sequence has a convergent subsequence.
+    <br>
+    <br>
+
+    Compact also implies <b>complete</b>
+    </p>
+    <p class="tgray">
+    idea: sequential compactness and the sheep lemma 
+    (convergent sub $\implies$ whole seq converges)
+    </p>
+    <p>
+    </p>
+
+    <p>
+    <h4> Specialness in $\mathcal{R}$</h4>
+    <b> Bolzano-Weirstrauss </b>
+    every bounded sequence in $\mathcal{R}^n$ has a convergent subsequence.
+    </p>
+    <p class="tgray">
+    idea: look at bounding interval [-M, M] left or right half 
+    contains $\infty$-many terms; repeat and get convergent sub.
+    </p>
+
+    <p>
+    <b>Heine-Borel</b>
+    In $\mathcal{R}n$ is compact is equivalent to closed and bounded.
+    </p>
+    <p class="tgray">
+    trickier, but compact always implies closed and bounded no matter the
+    metric space. 
+    </p>
+    <p>
+    <h4>Compactness + Continuity</h4>
+    Now the real power of abstractness shines. 
+    <br>
+    Before diving in, remember continuity also means $f^{-1}(open)$ is open
+    (in terms of sequences it means $f(x_n) \rightarrow f(p)$ if 
+    $x_n \rightarrow p$.
+    <br>
+    <h5>Continuous Image of Compact is dun dun dun...Compact</h5>
+    </p>
+    <p class="tgray">
+    idea: look at $f^{-1}(open cover)$ get subcover for domain et voila
+    </p>
+    <p>
+    A nice consequence is that the $f(K)$ is actually uniformly continous!
+    <br>
+    <br>
+    The grand chain of amazing theorems:
+    <br>
+    Extreme Value Theorem $\implies$ Rolle's $\implies$ Mean Value Theorem
+    </p>
+    <p class="tgray">
+    EVT: image is compact, get a sup b/c bounded, then get a convergent sub.
+    <br>
+    Rolle's: either both $f(a)$ and $f(b)$ are max and min 
+    <br>
+    MVT: clever trick: use $g(x) = f(x) - \frac{f(b) - f(a)}{b-a} (x-a)$ 
+    and Rolle's to get $g'(c) = 0$.
+    </p>
+       <h2> more stuff </h2>
+
+        </div>
+
+        <!-- empty right columns -->
+        <div class="col-md-1">
+        </div>
+        <div class="col-md-1">
+        </div>
+        
+    </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" 
+            integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" 
+            crossorigin="anonymous"></script>
+
+    <!-- Math -->
+    <script type="text/javascript" async
+      src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+  </body>
+
+</html>
