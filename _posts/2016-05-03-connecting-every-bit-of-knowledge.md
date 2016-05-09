@@ -6,4 +6,4 @@ summary:    The structure of Wikipedia's First Link Network
 categories: jekyll pixyll
 ---
 
-Read about my [project]( http://www.uvm.edu/storylab/2016/05/03/connecting-every-bit-of-knowledge/ ) exploring the structure of Wikipedia's First Link Network, which connects all 5 million articles. 
+Read about my [project](http://compstorylab.org/share/papers/ibrahim2016a/index.html) exploring the structure of Wikipedia's First Link Network, which connects all 5 million articles. 
