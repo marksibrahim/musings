@@ -3,7 +3,6 @@ layout:     post
 title:      Binary Search &#58; find the one in a million with only 20 questions 
 date:       2015-10-20 12:32:18
 summary:    even with one million sorted items, you need only 20 questions to find the one.
-description: binary search in python to search millions of records in 20 operations
 categories: jekyll pixyll
 ---
 

@@ -7,7 +7,7 @@ baseurl:     "/musings"
 url:         "http://marksibrahim.github.io/"
 
 # Google analytics
-google_analytics:
+google_analytics: UA-77855566-1
 
 # Optional features
 animated:           true
