@@ -2,7 +2,7 @@
 title:       <i class="fa fa-coffee"></i> Musings 
 email:       http://marksibrahim.github.io/
 author:      Mark Ibrahim
-description: "a collection of useful tools, ideas, and occasional tangents"
+description: "A garage of Python, VIM, Algorithms, and Mathematics tools"
 baseurl:     "/musings"
 url:         "http://marksibrahim.github.io/"
 
