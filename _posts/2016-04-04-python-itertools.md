@@ -4,6 +4,7 @@ title:      Python's Itertools
 date:       2016-04-04 12:32:18
 summary:    generator power
 categories: jekyll pixyll
+description: python itertools module for faster programs 
 ---
 
 Itertools are a mighty powerful way to lazily, efficiently work 
