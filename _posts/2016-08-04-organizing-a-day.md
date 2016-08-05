@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Organizing a Day
-date:       2016-05-03 12:32:18
+date:       2016-08-04 12:32:18
 summary:    How I track and prioritize tasks in Omnifocus
 categories: jekyll pixyll
 ---
@@ -9,25 +9,47 @@ categories: jekyll pixyll
 Inspired by the workflows of many other Omnifocus gurus, I developed a daily routine to  track and prioritize how I spend my day.
 
 # Foundation
-The workflow relies heavily on a foundation of life goals---ideally 4-5 goals. For me these include: Surviving (by that I mean paying bills, tracking errans, and other tasks that I simply need to accomplish to survive), Engaging with friends, Becoming a Better Mathematician/Programmer, and Building cool projects. Each goal is a Folder underwhich I create projects.
+The workflow is based on life goals---ideally 4-5. For me these include: 
+![goals]({{ site.url }}musings/images/life_goals)
 
-For each broad goal, I create projects (which are specific steps, which would help me accomplish the goal. For example, under Becoming a better progammer, a project might be to study algorithms. This project isn't a task I can accomplish in a sitting---it's a step towards becoming a better programming made up of many tasks.
+Each goal is a **Folder** under which I create projects.
+Projects are steps towards the goal. To become a better programmer, I may create a project to study algorithms. A project requires several tasks:
+
+![projects]({{ site.url }}musings/images/projects)
 
 # Throughout the Day
-As I go about my day, inevitably all kinds of tasks come up. Rather than holding these tasks in memory or spending time to put each one in a proper bucket or every moment deciding whether to work on the task or not, I use the inbox to dump any incoming tasks.
-Omnifocus on the iphone helps make this easier even if I don't a full-screen application running.
+Inevitably all sorts of tasks come up throughout a day. Rather than juggling priorities or todos in my mind, I dump tasks into the **Inobx**: 
+![inbox]({{ site.url }}musings/images/inbox)
+When I'm not sitting at my computer, having the app on my iPhone is helpful. 
 
-Email is one large source of these tasks. Ideally, I try to check email systematically a handful of times a day. Each email should be processed into a task, marked as done, or delayed until it's relevant. I use Google Inbox, which has a nice interface for doing this.
+Email is large source of tasks. I try to check email only a handful of times per day. Ideally, I touch each email once: I turn an email into a task, mark it as done, or defer it until it's relevant. I find Google Inbox is a nice interface for accomplishing this.
 
 
 # Morning Ritual
-To decide who I'll spend a day, I dedicate a 25 min to an hour every morning populating and processing my Omnifocus inbox. First, I turn any communication from Slack, email, or other messages into tasks in my inbox. Then, I categorize each into it's proper place within my existing projects under a particular goal (creating new ones as needed). 
+To decide how to spend a day, I dedicate about a half an hour morning to populate and process the Omnifocus Inbox: 
 
-Doing so, naturally filters which tasks are more relevant by the priority of a given goal or project. Finally, I systematically go through each goal/project and decide what the most important tasks for the day are, marking those with a flag and a context. 
-I also keep an eye on tasks with deadlines (or defer tasks until they are relevant--similar to email).
+<ol type="1">
+  <li> Turn any communication from Slack, email, or platforms into tasks in my Inbox. 
+  </li>
+  <li>
+   Categorize each into a project 
+   <ul>
+   <li>
+   add a <i>due date</i> if I need to deliver a task by a certain date 
+  </li>
+   <li>
+   <i>defer</i> until a later date (when task is relevant)
+   </li>
+  </ul>
+  </li>
+</ol>
+
+Next, I go through each goal, prioritize the projects under each and the determine the tasks I want to take on for the day. I **Flag** those tasks and assign each a one of three **Contexts**: 
+<i>priority</i>,<i> next</i>, and<i> dreamy</i>.
+<i>Priority</i> is the first task or two I'd like to take on for the day (typically the most important); <i>Dreamy</i> are is for tasks that would be nice to accomplish, but not necessary; and <i>Next</i> for the rest.
 
 
-Each flagged task gets a context: priority, next, dreamy. Priority is the task I'm working on now or one that's the first one I want to accomplish. As I finish this task, I mark one of the next tasks as priority. Finally, dreamy tasks are ones taht would be nice to accomplish, but not necessary.
+As I begin working on a task I move it from <i>next</i> to <i>priority</i>. On some days, I find it helpful to block-off times on my calendar for a particular task or use the [Pomodoro](https://en.wikipedia.org/wiki/Pomodoro_Technique) technique---I use an app called [Pomodoro One](http://rinik.net/pomodoro/) for this.
 
 If particularly important tasks comes up, I can always refer to the goals/projects and reshuffle the contexts as necessary. In some cases, I find it helpful to block off particuarl times of the day on a calendar for certain tasks or simply use pomdoro technique to pick-off tasks throughout the day. 
-Yes, I did create a Omnifocus tasks to write this blog post!
+In case you've been wondering, I did create a Omnifocus tasks to write this blog post!
