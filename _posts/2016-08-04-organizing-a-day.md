@@ -8,24 +8,29 @@ categories: jekyll pixyll
 
 Inspired by the workflows of many other Omnifocus gurus, I developed a daily routine to  track and prioritize how I spend my day.
 
-# Foundation
+## Foundation
 The workflow is based on life goals---ideally 4-5. For me these include: 
+
 ![goals]({{ site.url }}musings/images/life_goals.png)
 
 Each goal is a **Folder** under which I create projects.
-Projects are steps towards the goal. To become a better programmer, I may create a project to study algorithms. A project requires several tasks:
+Projects are steps towards the goal. To become a better programmer, I may create a project to study algorithms. 
 
 ![projects]({{ site.url }}musings/images/projects.png)
 
-# Throughout the Day
-Inevitably all sorts of tasks come up throughout a day. Rather than juggling priorities or todos in my mind, I dump tasks into the **Inobx**: 
+A project requires several tasks: read chapter 1, complete exercises 2.3, watch a tutorial on sorting.
+
+## Throughout the Day
+Inevitably all sorts of tasks come up throughout a day. Rather than juggling priorities or todos in my mind, I dump tasks into the **Inbox**: 
+
 ![inbox]({{ site.url }}musings/images/inbox.png)
+
 When I'm not sitting at my computer, having the app on my iPhone is helpful. 
 
-Email is large source of tasks. I try to check email only a handful of times per day. Ideally, I touch each email once: I turn an email into a task, mark it as done, or defer it until it's relevant. I find Google Inbox is a nice interface for accomplishing this.
+Email is large source of tasks. I try to check email only a handful of times per day. Ideally, I touch each email once: I turn an email into a task, mark it as done, or defer it until it's relevant. I find [Google Inbox](https://www.google.com/inbox/) is a nice interface for accomplishing this.
 
 
-# Morning Ritual
+## Morning Ritual
 To decide how to spend a day, I dedicate about a half an hour every morning to populate and process the Omnifocus Inbox: 
 
 <ol type="1">
@@ -58,6 +63,7 @@ Assign each a one of three <b>Contexts</b>:
 
 <i>Priority</i> is the first task or two I'd like to take on for the day (typically the most important); <i>Dreamy</i> are is for tasks that would be nice to accomplish, but not necessary; and <i>Next</i> for the rest.
 
+## Accomplishing Tasks
 
 As I begin working on a task I move it from <i>next</i> to <i>priority</i>. On some days, I find it helpful to block-off times on my calendar for a particular task or use the [Pomodoro](https://en.wikipedia.org/wiki/Pomodoro_Technique) technique---I use an app called [Pomodoro One](http://rinik.net/pomodoro/) for this.
 The order of tasks, projects, and goals helps me visually prioritize what I should be working on. Et voila!
