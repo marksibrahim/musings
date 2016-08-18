@@ -10,5 +10,4 @@ Come hear me talk about [Knowledge Search](http://knowledgesearch.us/) at the Ne
 
 A teaser of what you'll hear:
 
-
-![data_wranglers]({{ site.url }}musings/images/data_wranglers.png)
+[![data_wranglers]({{ site.url }}musings/images/data_wranglers.png)](http://www.meetup.com/NYC-Data-Wranglers/events/233260871/)
