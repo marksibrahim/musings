@@ -68,4 +68,4 @@ Assign each a one of three <b>Contexts</b>:
 As I begin working on a task I move it from <i>next</i> to <i>priority</i>. On some days, I find it helpful to block-off times on my calendar for a particular task or use the [Pomodoro](https://en.wikipedia.org/wiki/Pomodoro_Technique) technique---I use an app called [Pomodoro One](http://rinik.net/pomodoro/) for this.
 The order of tasks, projects, and goals helps me visually prioritize what I should be working on. Et voila!
 
-In case you've been wondering, I did create a Omnifocus task to write this blog post.
+In case you've been wondering, I did create an Omnifocus task for this post.
