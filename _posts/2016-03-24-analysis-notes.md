@@ -8,6 +8,6 @@ categories: jekyll pixyll
 
 in progress...
 <!--redirect
-<meta http-equiv="refresh" content="0; URL='{{site.url}}musings/custom_posts/why_calculus_works.html'" />
+<meta http-equiv="refresh" content="0; URL='https://marksibrahim.gitbooks.io/why-calculus-works/content/'" />
 -->
 
