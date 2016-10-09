@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Climbing the Almighty Vim Ladder
-date:       2016-02-07 12:32:18
+date:       2016-10-09 12:32:18
 summary:    new commands to go higher and higher
 categories: jekyll pixyll
 ---
@@ -70,6 +70,7 @@ et voila:
 "2013": 6.02,
 "2014": 6.38,
 {% endhighlight %}
+
 ### Tags, Parenthesis, and all that
 
 With Tim Pope's <a href="https://github.com/tpope/vim-surround">Surround Plugin</a>
@@ -87,6 +88,23 @@ Similarly, <b> cs(" </b> changes () to ""
 To surround a word with a \<span\> tag: <b>ysiw\<span\> </b>
 
 And best of all, for an entire line, select visually then <b>S</b> to surround with tag of choice.
+
+### Pasting
+
+If you paste while in insert mode, Vim will paste poorly formatted text: 
+![poor_format_java]({{ site.url }}musings/images/poor_format_java.png)
+
+There are two solutions:
+
+1. If you brew install Vim (7.4+), use the unnamed register: <b>"+ p</b> will properly paste from the system's clipboard.
+
+2. Use <b>paste mode</b> 
+    * <b>:set paste</b> 
+    * paste in insert mode
+    * <b> :set nopaste</b> (to exit pastemode)
+
+You then get nicely formatted code:
+![nice_format]({{ site.url }}musings/images/nice_format.png)
 
 ### Small Goodies
 * <b> gv </b> reselects last visual area
