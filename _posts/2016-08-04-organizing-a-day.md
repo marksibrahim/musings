@@ -2,36 +2,39 @@
 layout:     post
 title:      Organizing a Day
 date:       2016-08-04 12:32:18
-summary:    How I track and prioritize tasks in Omnifocus
+summary:    How I track and prioritize tasks
 categories: jekyll pixyll
 ---
 
-Inspired by the workflows of many other Omnifocus gurus, I developed a daily routine to  track and prioritize how I spend my day.
+*Update (December, 2016): I now use ToDoist to organize my day in much the same fashion. I find the interface is a bit more modern, syncing across devices is faster, and the ability to collaborate with others quite handy!*
+
+Inspired by workflows of many Omnifocus gurus, I developed a routine to  track and prioritize how I spend my day.
 
 ## Foundation
 The workflow is based on life goals---ideally 4-5. For me these include: 
 
 ![goals]({{ site.url }}musings/images/life_goals.png)
 
-Each goal is a **Folder** under which I create projects.
-Projects are steps towards the goal. To become a better programmer, I may create a project to study algorithms. 
+Each goal is a **Folder** containing projects.
+Projects are steps towards a goal. To become a better programmer, I may create a project to study algorithms. Not so hard!
 
 ![projects]({{ site.url }}musings/images/projects.png)
 
-A project requires several tasks: read chapter 1, complete exercises 2.3, watch a tutorial on sorting.
+A project requires several tasks: read chapter 1, complete exercises 2.3, watch a tutorial on sorting. Each task is specific: something I can accomplish in an hour or two.
 
 ## Throughout the Day
-Inevitably all sorts of tasks come up throughout a day. Rather than juggling priorities or todos in my mind, I dump tasks into the **Inbox**: 
+
+Inevitably tasks come up throughout a day. Rather than juggling priorities or todos in my mind, I dump tasks into the **Inbox**: 
 
 ![inbox]({{ site.url }}musings/images/inbox.png)
 
-When I'm not sitting at my computer, having the app on my iPhone is helpful. 
+When I'm not sitting at my computer, there's a handy iPhone app to capture anything I want to do.
 
 Email is large source of tasks. I try to check email only a handful of times per day. Ideally, I touch each email once: I turn an email into a task, mark it as done, or defer it until it's relevant. I find [Google Inbox](https://www.google.com/inbox/) is a nice interface for accomplishing this.
 
 
 ## Morning Ritual
-To decide how to spend a day, I dedicate about a half an hour every morning to populate and process the Omnifocus Inbox: 
+To decide how to spend a day, I dedicate about a half an hour every morning to populate and process the Inbox: 
 
 <ol type="1">
   <li> Turn any communication from Slack, email, or platforms into tasks in my Inbox. 
@@ -68,4 +71,4 @@ Assign each a one of three <b>Contexts</b>:
 As I begin working on a task I move it from <i>next</i> to <i>priority</i>. On some days, I find it helpful to block-off times on my calendar for a particular task or use the [Pomodoro](https://en.wikipedia.org/wiki/Pomodoro_Technique) technique---I use an app called [Pomodoro One](http://rinik.net/pomodoro/) for this.
 The order of tasks, projects, and goals helps me visually prioritize what I should be working on. Et voila!
 
-In case you've been wondering, I did create an Omnifocus task for this post.
+In case you've been wondering, I did create a task for this post.
