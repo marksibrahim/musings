@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      Neural Networks for Classification
+title:      Neural Network Classifiers
 date:       2017-04-11 12:32:18
-summary:    using Keras ontop of Tensorflow to train a neural network classifier
+summary:    Train a neural network classifier using Keras on top of Tensorflow
 categories: jekyll pixyll
 ---
 
