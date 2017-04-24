@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Neural Networks and Deep Learning
-date:       2017-04-11 12:32:18
+date:       2017-04-24 12:32:18
 summary:    What they are and how they work
 categories: jekyll pixyll
 ---
