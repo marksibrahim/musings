@@ -3,7 +3,6 @@ layout:     post
 title:      Python's Itertools
 date:       2016-04-04 12:32:18
 summary:    generator power
-categories: jekyll pixyll
 ---
 
 Itertools are a mighty powerful way to lazily, efficiently work 

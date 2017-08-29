@@ -3,7 +3,6 @@ layout:     post
 title:      Making Syntastic and Solarized play nicely in Vim
 date:       2015-11-20 12:32:18
 summary:    How to fix the obstrusive Syntastic gray bar in solarized
-categories: jekyll pixyll vim 
 ---
 
 Syntastic is a great linter plugin for Vim, catching syntax errors while you write code in nearly any language (even Latex).

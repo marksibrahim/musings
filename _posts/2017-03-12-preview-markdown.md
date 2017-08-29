@@ -3,7 +3,6 @@ layout:     post
 title:      Preview Markdown
 date:       2017-03-12 12:32:18
 summary:    How to preview a readme before pushing to GitHub
-categories: aws data
 ---
 
 Have you ever wanted to preview `README` before pushing it to GitHub?

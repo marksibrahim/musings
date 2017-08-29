@@ -3,7 +3,6 @@ layout:     post
 title:      Binary Search &#58; find the one in a million with only 20 questions 
 date:       2015-10-20 12:32:18
 summary:    even with one million sorted items, you need only 20 questions to find the one.
-categories: jekyll pixyll
 ---
 
 ### What is Binary Search?

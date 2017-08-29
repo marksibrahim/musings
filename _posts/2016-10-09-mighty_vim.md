@@ -3,7 +3,6 @@ layout:     post
 title:      Climbing the Almighty Vim Ladder
 date:       2016-10-09 12:32:18
 summary:    new commands to go higher and higher
-categories: jekyll pixyll
 ---
 
 ### Search and Replace Visually
