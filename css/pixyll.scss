@@ -7,3 +7,15 @@
 @import "basscss";
 @import "main";
 @import "solarized-dark";
+
+.footnotes p {
+    color: gray !important;
+    font-weight: 200 !important;
+    font-size: 0.75rem !important;
+}
+
+.footnotes li {
+    color: gray !important;
+    font-weight: 200 !important;
+    font-size: 0.75rem !important;
+}
