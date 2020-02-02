@@ -36,27 +36,61 @@ So if we imagine there are finitely many primes, we get a contradiction, so it c
 
 Now let's untangle the "something" in between.
 
-## A Detour to Sine
-sine curve plot and zeros.
 
+## Proving There are Infinitely Many Primes
+
+### Step 1: $$ 0 <$$ "Something"
+
+First, let's understand what these symbols mean:
+
+![]({{ site.url }}/images/primes/positive-sin.png)
+
+Careful, pi and product look very similar! How do we know this is true?
+
+Where do the values of the products lie?
+![]({{ site.url }}/images/primes/sin-product.png)
+
+It turns out sin at all these values is positive
+![]({{ site.url }}/images/primes/sin-plot.png)
+
+So, we we've shown "something" is a bunch of positive numbers multiplied by one another.
+Therefore, "something" > 0
+
+
+
+### Step 2: Rewrite "Something"
+We want to rewrite "something" in a new form to help us it's equal to zero. 
+
+$$ \sin(\pi / p) = \sin(\pi / p + 2 \pi \prod_{p\prime} p\prime/ p) $$
+
+![]({{ site.url }}/images/primes/long-sin-plot.png)
+
+What does this repition imply? 
 $$ \sin(n) = sin( n + 2 \pi k)$$
 
 for any $k$ in $0, 1, 2, \dots $.
 
-## Proving There are Infinitely Many Primes
-### Sine Product is Greater than Zero
-$$ 0 < \prod_p \sin (\pi / p) $$
+Now, let's think about one case for $p = 5$. Remember we know
 
-![]({{ site.url }}/images/primes/positive_sin.png)
-![]({{ site.url }}/images/primes/positive_sin_expanded.png)
-![]({{ site.url }}/images/primes/pi_positive.png)
+![]({{ site.url }}/images/primes/sin-2pik.png)
 
-### Rewrite Sine Product
- $$ \sin(\pi / p) = \sin(\pi / p + 2 \prod_{p\prime} p\prime/ p) $$
+Now all we need to show to convince ourselves we can rewrite "something" as desired is to find the $#$:
+![]({{ site.url }}/images/primes/sin-2pik.png)
 
-### Sine Product Equals 0
+
+Luckly, this is true not just for $p=5$, but for any $p$, we can find it's corresponding $\prime p$ and cancel. 
+Implying, for any $p$
+
+$$ \sin(\pi / p) = \sin(\pi / p + 2 \pi \prod_{p\prime} p\prime/ p) $$
+
+### Step 3: "Something" equals 0
+
+Finally, to show "something" is also zero, let's remeber another fact about sin.
 $$ \frac{(1 + 2 \prod_{p\prime} p\prime)}{p} $$ is an integer for some prime $p$.
 
+![]({{ site.url }}/images/primes/zero-sin-plot.png)
+![]({{ site.url }}/images/primes/rewrite-sin-for-zero.png)
+![]({{ site.url }}/images/primes/numerator.png)
+![]({{ site.url }}/images/primes/last-step.png)
 Therefore, one of the terms in the product is 0, implying the whole product must be zero.
-
 This is a contradiction!
