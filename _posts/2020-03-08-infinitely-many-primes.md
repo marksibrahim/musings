@@ -50,7 +50,7 @@ Now let's untangle the "something" in between.
 
 First, let's understand what these symbols mean:
 
-![positive-sin]({{ site.url }}/primes/positive-sin.png#small-image)
+![positive-sin]({{ site.url }}musings/images/primes/positive-sin.png#small-image)
 
 * Careful, *pi* = 3.14... and *product* look very similar. 
 
@@ -58,11 +58,11 @@ How do we know "something" is greater than zero?
 
 Let's see what these values equal
 
-![sin-product]({{ site.url }}/primes/sin-product.png)
+![sin-product]({{ site.url }}musings/images/primes/sin-product.png)
 
 Not matter which prime $p$ we choose, 
 $ sin(\pi / p) > 0$. 
-![]({{ site.url }}/primessin-plot.png)
+![]({{ site.url }}musings/images/primes/sin-plot.png)
 
 This means "something" is the product of positive numbers.
 "Something" 
@@ -80,11 +80,11 @@ $$ \sin(\pi / p) = \sin(\pi / p + 2 \pi \prod_{p\prime} p\prime/ p). $$
 
 The product inside *sin* means
 
-![]({{ site.url }}/primes/product-primes2.png)
+![]({{ site.url }}musings/images/primes/product-primes2.png)
 
  Let's look at a graph of sin
 
-![]({{ site.url }}/primes/long-sin-plot.png)
+![]({{ site.url }}musings/images/primes/long-sin-plot.png)
 
 The graph between 0 and $2\pi$ is exactly the same as that between $2\pi$ and $4\pi$. It's a repeating pattern every $2 \pi$. The pattern says
 
@@ -94,7 +94,7 @@ for any &#35; $0, 1, 2, \dots $.
 
 Let's think about one case when $p = 5$. Remember we know
 
-![]({{ site.url }}/primes/sin-rewritten.png)
+![]({{ site.url }}musings/images/primes/sin-rewritten.png)
 
 no matter which orange # we choose.
 
@@ -102,7 +102,7 @@ What if we choose the # to be $ \prod_{p \prime} \frac{p\prime}{5}$?
 
 Using the repeating pattern of *sin* we can then rewrite $\sin(\pi / 5)$
 as
-![]({{ site.url }}/primes/sin-2pik.png)
+![]({{ site.url }}musings/images/primes/sin-2pik.png)
 
 
 Luckily, this is true not just for $p=5$, but for any $p$. We can always find a $p \prime$ in the numerator to cancel $p$. 
@@ -114,24 +114,24 @@ $$ \sin(\pi / p) = \sin(\pi / p + 2 \pi \prod_{p\prime} \frac{p\prime}{p}). $$
 
 Finally, let's see why "something" = $\prod_p sin(\pi / p)$ is also zero. Let's look at where *sin* is zero
 
-![]({{ site.url }}/primes/zero-sin-plot.png)
+![]({{ site.url }}musings/images/primes/zero-sin-plot.png)
 
 $sin(k \pi) = 0$ for any $k = 0, 1, 2, ...$.
 
 Let's rewrite the terms inside *sin* in a friendlier form:
-![]({{ site.url }}/primes/rewrite-sin-for-zero.png)
+![]({{ site.url }}musings/images/primes/rewrite-sin-for-zero.png)
 
 by combining the terms under a common denominator. 
 
 Now notice
 
-![]({{ site.url }}/primes/numerator.png)
+![]({{ site.url }}musings/images/primes/numerator.png)
 
 because every natural number can be written as the product of primes. 
 
 Let's call one of those primes $p^*$. Then, 
 
-![]({{ site.url }}/primes/last-step.png)
+![]({{ site.url }}musings/images/primes/last-step.png)
 
 Now we have one term in our product that's zero (when $p = p^*$), meaning
 
