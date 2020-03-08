@@ -14,7 +14,7 @@ img
 
 Prime numbers, like $2, 5 7,$ and $47$ are special [^1].
 Unlike say 4 = 2 * 2 or 33 = 3 * 11, 
-, prime numbers can't be written as the product of other numbers. They're the fundamental block we express other numbers through: every natural number, 1, 2, 3, ... is the product of primes [^2]. How many of these special prime numbers are there?
+ prime numbers can't be written as the product of other numbers. They're the fundamental block we express other numbers through: every natural number, 1, 2, 3, ... is the product of primes [^2]. How many of these special prime numbers are there?
 
 Infinitely many! 
 A recent
